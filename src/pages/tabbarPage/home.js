@@ -86,6 +86,7 @@ class home extends Component {
         }else
             downloadDest = `${RNFS.DocumentDirectoryPath}/${((Math.random() * 1000) | 0)}.jpg`;
 
+
         const options = {
             fromUrl: this.state.imageURL,
             toFile: downloadDest,
