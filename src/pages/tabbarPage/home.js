@@ -76,6 +76,7 @@ class home extends Component {
         });
     }
 
+
     /*下载文件*/
     downloadFile() {
         // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
